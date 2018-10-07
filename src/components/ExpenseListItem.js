@@ -7,10 +7,7 @@ export default ({ description, amount, createdAt, id }) => (
     <div>
         <Link to={`/edit/${id}`}>Expense List Item: </Link>
         <p>
-             {description} 
-            - 
-            {numeral(amount /100).format('$0,0.00')} 
-            created at: {moment(createdAt).format('MMMM Do, YYYY')}
+            {`${description} \n amount: ${numeral(amount /100).format('$0,0.00')} created at: ${moment(createdAt).format('MMMM Do, YYYY')}`} 
         </p>
     </div>
 )
