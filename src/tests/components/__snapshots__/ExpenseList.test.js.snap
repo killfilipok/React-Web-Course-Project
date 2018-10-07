@@ -2,6 +2,7 @@
 
 exports[`should render ExpenseList with empty message 1`] = `
 <div>
+  <Connect(ExpensesSummary) />
   <p>
     No expenses
   </p>
@@ -10,8 +11,9 @@ exports[`should render ExpenseList with empty message 1`] = `
 
 exports[`should render ExpenseList with expenses 1`] = `
 <div>
+  <Connect(ExpensesSummary) />
   <Component
-    amount={195}
+    amount={200}
     createdAt={0}
     description="Gum"
     id="1"
@@ -19,7 +21,7 @@ exports[`should render ExpenseList with expenses 1`] = `
     note=""
   />
   <Component
-    amount={109500}
+    amount={100000}
     createdAt={-345600000}
     description="Rent"
     id="2"

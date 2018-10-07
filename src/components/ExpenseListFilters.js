@@ -3,7 +3,6 @@ import { connect } from 'react-redux'
 import { setTextFilter, sortByDate, sortByAmount, setStartDate, setEndDate } from '../actions/filters'
 import { DateRangePicker } from 'react-dates'
 
-
 export class ExpenseListFilters extends React.Component {
     state = {
         calendarFocused: null

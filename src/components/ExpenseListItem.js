@@ -14,3 +14,4 @@ export default ({ description, amount, createdAt, id }) => (
         </p>
     </div>
 )
+

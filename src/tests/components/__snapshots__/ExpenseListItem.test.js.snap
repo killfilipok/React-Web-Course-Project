@@ -11,7 +11,7 @@ exports[`should render expense list item 1`] = `
   <p>
     Gum
     -
-    $1.95
+    $2.00
     created at: 
     January 1st, 1970
   </p>
