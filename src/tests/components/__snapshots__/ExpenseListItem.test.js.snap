@@ -9,11 +9,8 @@ exports[`should render expense list item 1`] = `
     Expense List Item: 
   </Link>
   <p>
-    Gum
-    -
-    $2.00
-    created at: 
-    January 1st, 1970
+    Gum 
+     amount: $2.00 created at: January 1st, 1970
   </p>
 </div>
 `;
