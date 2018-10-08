@@ -59,3 +59,14 @@ test('should dont edit invalid id', () => {
 
     expect(state).toEqual(expenses)
 })
+
+
+
+test('should control that data is passed into store', () => {
+    const state = expensesReducer(expenses, {
+        type: 'SET_EXPENSES',
+        expenses: [expenses[1]]
+    })
+
+    expect(state).toEqual([expenses[1]])
+})
